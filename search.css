@@ -1,0 +1,50 @@
+body{
+	background-repeat: no-repeat;
+	background-image: url(search.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+}
+table{
+	border-bottom: 1px solid #0059ea;
+}
+th{
+	height: 50px;
+	padding: 15px;
+	border-bottom: 1px solid #0059ea;
+	
+}
+
+tr{
+	height: 35px;
+}
+tr:nth-child(even){
+	
+}
+th , td {
+	text-align: center;
+	border-right: 1px solid #0059ea;
+}
+input[type=text]
+{
+	width:200px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	box-sizing: border-box;
+	border:1px solid #0059ea;
+	border-radius: 10px;
+	font-size: 15px;
+	padding: 8px;
+
+}
+input[type=text]:focus{
+	width: 88%;
+}
+input[type=submit]{
+	font-size: 15px;
+	padding: 8px;
+	width: 150px;
+	border-radius: 5px;
+}
